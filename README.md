@@ -24,3 +24,4 @@
 - [LibRedirect](https://addons.mozilla.org/en-US/firefox/addon/libredirect/)
 - [Web Archives](https://addons.mozilla.org/en-US/firefox/addon/view-page-archive/)
 - [Wayback Machine](https://addons.mozilla.org/en-US/firefox/addon/wayback-machine_new/)
+- [Twemojify](https://addons.mozilla.org/en-US/firefox/addon/twemojify/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)
