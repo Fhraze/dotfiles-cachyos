@@ -1,6 +1,9 @@
+sudo pacman -Syu
+
 sudo pacman -S \
 neovim \
 github-cli \
+extra/glab \
 mpv \
 tenacity \
 ungoogled-chromium \

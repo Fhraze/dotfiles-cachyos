@@ -9,6 +9,8 @@ _isInstalled() {
     return; #false
 }
 
+sudo pacman -Syu
+
 sudo pacman -S \
 thunar \
 thunar-volman \
