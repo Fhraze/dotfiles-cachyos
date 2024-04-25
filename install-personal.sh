@@ -1,0 +1,43 @@
+sudo pacman -S \
+neovim \
+github-cli \
+mpv \
+tenacity \
+ungoogled-chromium \
+vesktop \
+protonup-qt \
+winetricks \
+signal-desktop \
+heroic-games-launcher \
+lutris \
+steam \
+krita \
+gimp \
+davinci-resolve \
+obsidian \
+nodejs \
+typescript \
+ninja \
+jdk-openjdk \
+mono \
+qbittorrent \
+yt-dlp \
+keepassxc \
+lolcat \
+cmatrix \
+cava \
+scrcpy \
+qpwgraph \
+waydroid \
+onlyoffice-bin \
+okular \
+rustup \
+syncthing \
+--needed --noconfirm
+
+paru -S \
+protontricks \
+vscodium-bin \
+blahaj-bin \
+droidcam \
+--needed --noconfirm
