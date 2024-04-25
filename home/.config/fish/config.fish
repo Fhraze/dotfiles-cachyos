@@ -6,6 +6,8 @@ alias ll='eza --icons -l'
 alias la='eza --icons -a'
 alias lal='eza --icons -la'
 
+zoxide init --cmd cd fish | source
+
 # overwrite greeting
 # potentially disabling fastfetch
 #function fish_greeting

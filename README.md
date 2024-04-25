@@ -9,6 +9,7 @@
 - CachyOS themed wofi and wofi-emoji
 - some Hyprland tweaks
 - replaced ls with eza cuz it's prettier
+- replaced cd with zoxide
 - opendoas and sudo alias to doas
 - install-essential.sh also installs the CachyOS SDDM theme
 - additional fonts support
