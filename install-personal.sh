@@ -2,6 +2,7 @@ sudo pacman -Syu
 
 sudo pacman -S \
 neovim \
+gedit \
 github-cli \
 extra/glab \
 mpv \
