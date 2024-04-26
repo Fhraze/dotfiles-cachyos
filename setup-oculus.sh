@@ -19,7 +19,7 @@ mkdir ~/ALVR
 cd ~/ALVR
 
 # Download ALVR
-wget https://github.com/alvr-org/ALVR/releases/download/v20.7.1/alvr_streamer_linux.tar.gz
+wget https://github.com/alvr-org/ALVR-nightly/releases/download/v21.0.0-dev00%2Bnightly.2024.04.25/alvr_streamer_linux.tar.gz
 tar -xvzf alvr_streamer_linux.tar.gz
 rm alvr_streamer_linux.tar.gz
 
@@ -29,4 +29,5 @@ unzip ADBForwarder-linux-x64.zip
 rm ADBForwarder-linux-x64.zip
 
 # Download APK
-wget https://github.com/alvr-org/ALVR/releases/download/v20.7.1/alvr_client_android.apk
+wget https://github.com/alvr-org/ALVR-nightly/releases/download/v21.0.0-dev00%2Bnightly.2024.04.25/alvr_client_android.apk
+
