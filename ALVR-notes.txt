@@ -1,1 +1,6 @@
-SteamVR launch option for Wayland: WAYLAND_DISPLAY="" %command%
+SteamVR launch option for Wayland:
+WAYLAND_DISPLAY="" RADV_DEBUG=zerovram QT_QPA_PLATFORM=xcb %command%
+
+Extra settings in SteamVR:
+Video > Per-application video settings > Use Legacy Reprojection Mode
+(Advanced)

@@ -1,5 +1,5 @@
 sudo pacman -Syu
-sudo pacman -S unzip tar android-tools --needed --noconfirm
+sudo pacman -S corectrl unzip tar android-tools --needed --noconfirm
 paru -S sidequest-bin --needed --noconfirm
 sudo mkdir -p /etc/udev/rules.d
 if grep -q "SUBSYSTEM" /etc/udev/rules.d/50-oculus.rules; then
@@ -8,10 +8,10 @@ else
   echo "SUBSYSTEM="usb", ATTR{idVendor}=="2833", ATTR{idProduct}=="0186", MODE="0660" group="plugdev", symlink+="ocuquest%n"" | sudo tee -a /etc/udev/rules.d/50-oculus.rules
 fi
 
-read -p "$*Setup ALVR at ~/ALVR? [y/n]: " yn
-case $yn in
-  #[Yy]*) ;;
-  [Nn]*) return 1 2>/dev/null; exit 1;;
+read -p "$*ALVR standalone[1] or compile alvr-git[2]? [1/2]: " re
+case $re in
+  [1]*) ;;
+  [2]*) paru -S alvr-git --needed ;return 1 2>/dev/null; exit 1;;
 esac
 
 # Start ALVR Setup
