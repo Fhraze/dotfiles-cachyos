@@ -1,5 +1,5 @@
 sudo pacman -Syu
-paru -S ttf-twemoji-color --needed --noconfirm
+paru -S ttf-twemoji --needed --noconfirm
 sudo pacman -Rd --nodeps noto-fonts-emoji --noconfirm
 mkdir -p ~/.config/fonts
 cp local.conf ~/.config/fonts/
