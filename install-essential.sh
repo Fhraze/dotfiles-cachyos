@@ -57,7 +57,7 @@ esac
 
 # Setting up SDDM theme
 sudo pacman -S cachyos-themes-sddm --needed --noconfirm
-if grep -q "[Theme]" /etc/sddm.conf; then
+if grep -wq "Theme" /etc/sddm.conf; then
   echo "Could not apply SDDM theme!! sddm.conf already has a [Theme] section"
 else
   cat sddm-config | sudo tee -a /etc/sddm.conf
