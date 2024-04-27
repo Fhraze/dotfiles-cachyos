@@ -131,7 +131,7 @@
                 "enabled": true
             },
             "CustomRPC": {
-                "enabled": true,
+                "enabled": false,
                 "type": 0,
                 "timestampMode": 0,
                 "details": "Like really, the community there is",
@@ -248,7 +248,7 @@
                 "enabled": false
             },
             "LastFMRichPresence": {
-                "enabled": true,
+                "enabled": false,
                 "hideWithSpotify": true,
                 "shareUsername": true,
                 "statusName": "some music",
@@ -366,7 +366,7 @@
             "OpenInApp": {
                 "enabled": false
             },
-            "Party mode 🎉": {
+            "Party mode ": {
                 "enabled": false
             },
             "PermissionFreeWill": {
