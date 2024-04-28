@@ -1,6 +1,45 @@
 SteamVR launch option for Wayland:
-WAYLAND_DISPLAY="" RADV_DEBUG=zerovram QT_QPA_PLATFORM=xcb %command%
+WAYLAND_DISPLAY="" QT_QPA_PLATFORM=xcb %command%
 
 Extra settings in SteamVR:
 Video > Per-application video settings > Use Legacy Reprojection Mode
 (Advanced)
+
+Perfect Balance FPS-Latency on Quest 2 (wired setup):
+[Video]
+- tr res
+  - Scale 1
+- em res
+  - Scale 1
+- pref fps
+  - 120.0Hz
+- max buff
+  - 1.7 frames
+- opt game render lat
+  - off
+- bitrate
+  - mode: Constant
+  - 30Mbps
+  - Adapt: off
+- pref codec
+  - AV1 (AMD Only)
+  - rate ctrl: CBR
+  - entr coding: CAVLC
+  - full range color: on
+- AMF
+  - preset: balanced
+- fov encoding
+  - c width: 0.42
+  - c height: 0.4
+  - shift x: 0.4
+  - shift y: 0.1
+  - h ratio: 4
+  - v ratio: 5
+- clientside fov: off
+- color correction: on
+
+[Headset]
+prediction: 2.9 frames
+
+[Connection]
+protocol: TCP
