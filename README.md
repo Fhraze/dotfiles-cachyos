@@ -4,8 +4,8 @@
 ![image](https://github.com/Fhraze/dotfiles-cachyos/assets/76172824/f6ac49bb-c01c-45ee-8f31-259c3a9c27cd)
 
 ### Themes
-**Home (1)**: default theme
-**Home2**: demitrans/androgyne theme
+- **Home (1)**: default theme
+- **Home2**: demitrans/androgyne theme
 
 ### Additions:
 - a really cool CachyOS wallpaper :O
