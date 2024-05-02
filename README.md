@@ -3,6 +3,10 @@
 ![image](https://github.com/Fhraze/dotfiles-cachyos/assets/76172824/ed4e4f80-fa30-4bab-a8e8-285e08cef272)
 ![image](https://github.com/Fhraze/dotfiles-cachyos/assets/76172824/f6ac49bb-c01c-45ee-8f31-259c3a9c27cd)
 
+### Themes
+**Home (1)**: default theme
+**Home2**: demitrans/androgyne theme
+
 ### Additions:
 - a really cool CachyOS wallpaper :O
 - hyprnome for better multi-monitor compatibility
