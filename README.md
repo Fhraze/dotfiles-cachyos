@@ -5,7 +5,7 @@
 
 ### Themes
 - **Home (1)**: default theme
-- **Home2**: demitrans/androgyne theme
+- **Home2**: my theme
 
 ### Additions:
 - a really cool CachyOS wallpaper :O
