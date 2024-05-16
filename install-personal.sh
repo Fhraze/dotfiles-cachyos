@@ -44,4 +44,5 @@ protontricks \
 vscodium-bin \
 blahaj-bin \
 droidcam \
+opentabletdriver \
 --needed --noconfirm
