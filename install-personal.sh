@@ -1,6 +1,11 @@
 sudo pacman -Syu
 
 sudo pacman -S \
+easyeffects \
+calf \
+lsp-plugins-lv2 \
+zam-plugins-lv2 \
+mda.lv2 \
 neovim \
 gedit \
 github-cli \
