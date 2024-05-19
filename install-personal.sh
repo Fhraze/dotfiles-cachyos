@@ -1,6 +1,7 @@
 sudo pacman -Syu
 
 sudo pacman -S \
+carla \
 easyeffects \
 calf \
 lsp-plugins-lv2 \
