@@ -18,16 +18,16 @@ unzip ADBForwarder-linux-x64.zip
 rm ADBForwarder-linux-x64.zip
 
 # Download APK
-wget https://github.com/alvr-org/ALVR-nightly/releases/download/v21.0.0-dev00%2Bnightly.2024.04.25/alvr_client_android.apk
+wget https://github.com/alvr-org/ALVR/releases/download/v20.8.1/alvr_client_android.apk
 
-read -p "$*ALVR standalone[1] or compile alvr-git[2]? [1/2]: " re
+read -p "$*ALVR v20.8.1 Release[1] or compile alvr[2]? [1/2]: " re
 case $re in
   [1]*) ;;
-  [2]*) paru -S alvr-git --needed ;return 1 2>/dev/null; exit 1;;
+  [2]*) paru -S alvr --needed ;return 1 2>/dev/null; exit 1;;
 esac
 
 # Download ALVR
-wget https://github.com/alvr-org/ALVR-nightly/releases/download/v21.0.0-dev00%2Bnightly.2024.04.25/alvr_streamer_linux.tar.gz
+wget https://github.com/alvr-org/ALVR/releases/download/v20.8.1/alvr_streamer_linux.tar.gz
 tar -xvzf alvr_streamer_linux.tar.gz
 rm alvr_streamer_linux.tar.gz
 
