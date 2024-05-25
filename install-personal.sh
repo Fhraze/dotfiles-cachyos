@@ -1,6 +1,7 @@
 sudo pacman -Syu
 
 sudo pacman -S \
+speedcrunch \
 carla \
 easyeffects \
 calf \
