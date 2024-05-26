@@ -17,17 +17,4 @@ wget https://github.com/alvr-org/ADBForwarder/releases/download/v1.3.1/ADBForwar
 unzip ADBForwarder-linux-x64.zip
 rm ADBForwarder-linux-x64.zip
 
-# Download APK
-wget https://github.com/alvr-org/ALVR/releases/download/v20.8.1/alvr_client_android.apk
-
-read -p "$*ALVR v20.8.1 Release[1] or compile alvr[2]? [1/2]: " re
-case $re in
-  [1]*) ;;
-  [2]*) paru -S alvr --needed ;return 1 2>/dev/null; exit 1;;
-esac
-
-# Download ALVR
-wget https://github.com/alvr-org/ALVR/releases/download/v20.8.1/alvr_streamer_linux.tar.gz
-tar -xvzf alvr_streamer_linux.tar.gz
-rm alvr_streamer_linux.tar.gz
-
+echo "Now run alvr-install-amd.sh or alvr-install-nvidia.sh (or install from the AUR) and download-alvr-apk.sh in the alvr-scripts folder"
