@@ -17,4 +17,4 @@ wget https://github.com/alvr-org/ADBForwarder/releases/download/v1.3.1/ADBForwar
 unzip ADBForwarder-linux-x64.zip
 rm ADBForwarder-linux-x64.zip
 
-echo "Now run alvr-install-amd.sh or alvr-install-nvidia.sh (or install from the AUR) and download-alvr-apk.sh in the alvr-scripts folder"
+echo "Now run alvr-install-amd.sh or alvr-install-nvidia.sh (or install from the AUR) and download the apk"
