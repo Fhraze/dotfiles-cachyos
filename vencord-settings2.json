@@ -677,7 +677,8 @@
                 "checkInterval": 20
             },
             "ImplicitRelationships": {
-                "enabled": true
+                "enabled": false,
+                "sortByAffinity": true
             },
             "ShowHiddenThings": {
                 "enabled": false,
@@ -763,7 +764,7 @@
             "authenticated": false,
             "url": "https://api.vencord.dev/",
             "settingsSync": false,
-            "settingsSyncVersion": 1716711517706
+            "settingsSyncVersion": 1716743147453
         },
         "notifyAboutUpdates": true
     },
