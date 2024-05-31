@@ -1,7 +1,6 @@
 sudo pacman -Syu
-sudo pacman -S openxr corectrl unzip tar android-tools --needed --noconfirm
-paru -S alvr-git --needed --noconfirm
-paru -S sidequest-bin --needed --noconfirm
+sudo pacman -S openvr openxr corectrl unzip tar android-tools --needed --noconfirm
+paru -S alvr-git wlx-overlay-s-git sidequest-bin --needed --noconfirm
 sudo mkdir -p /etc/udev/rules.d
 if grep -q "SUBSYSTEM" /etc/udev/rules.d/50-oculus.rules; then
   echo "Rules already applied"
