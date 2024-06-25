@@ -1,24 +1,8 @@
 sudo pacman -Syu
 
-sudo pacman -S \
-thunar \
-thunar-volman \
-fd \
-zoxide \
-wine-ge-custom \
-ttf-sazanami \
-ttf-baekmuk \
-ttf-hannom \
-opendoas \
---needed --noconfirm
+sudo pacman -S thunar thunar-volman fd zoxide wine-ge-custom ttf-sazanami ttf-baekmuk ttf-hannom opendoas --needed
 
-paru -S \
-ttf-twemoji-color \
-ttf-ancient-fonts \
-ttf-ubraille \
-wofi-emoji \
-hyprnome \
---needed --noconfirm
+paru -S ttf-twemoji-color ttf-ancient-fonts ttf-ubraille wofi-emoji hyprnome --needed
 
 # Setting up SDDM theme
 sudo pacman -S cachyos-themes-sddm --needed --noconfirm

@@ -4,7 +4,7 @@
 
 window {
     border-radius: 25px;
-    background-color: #2CE071;
+    background-color: #00B9E6;
 }
 
 #input {
@@ -40,7 +40,7 @@ window {
 }
 
 #entry:selected {
-    background-color: #2CE071;
+    background-color: #FF017F;
 }
 
 #text:selected {

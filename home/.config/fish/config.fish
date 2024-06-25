@@ -1,5 +1,7 @@
 source /usr/share/cachyos-fish-config/cachyos-config.fish
 
+set PATH $PATH ~/.cargo/bin
+
 alias sudo='doas'
 alias ls='eza --icons'
 alias ll='eza --icons -l'

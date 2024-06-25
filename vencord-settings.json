@@ -28,7 +28,7 @@
                 "enabled": true
             },
             "MessageAccessoriesAPI": {
-                "enabled": false
+                "enabled": true
             },
             "MessageDecorationsAPI": {
                 "enabled": true
@@ -37,7 +37,7 @@
                 "enabled": true
             },
             "MessagePopoverAPI": {
-                "enabled": false
+                "enabled": true
             },
             "NoticesAPI": {
                 "enabled": true
@@ -46,7 +46,8 @@
                 "enabled": false
             },
             "NoTrack": {
-                "enabled": true
+                "enabled": true,
+                "disableAnalytics": true
             },
             "Settings": {
                 "enabled": true,
@@ -67,7 +68,8 @@
                 "enabled": false
             },
             "BANger": {
-                "enabled": false
+                "enabled": true,
+                "source": "https://i.imgur.com/wp5q52C.mp4"
             },
             "BetterFolders": {
                 "enabled": true,
@@ -257,7 +259,8 @@
                 "missingArt": "lastfmLogo",
                 "showLastFmLogo": true,
                 "username": "Fhraze",
-                "apiKey": "d2f22bf0b421437e4caa9da046330617"
+                "apiKey": "d2f22bf0b421437e4caa9da046330617",
+                "shareSong": true
             },
             "LoadingQuotes": {
                 "enabled": false,
@@ -296,10 +299,53 @@
                 "enabled": false
             },
             "MoreUserTags": {
-                "enabled": false
+                "enabled": true,
+                "tagSettings": {
+                    "WEBHOOK": {
+                        "text": "Webhook",
+                        "showInChat": true,
+                        "showInNotChat": false
+                    },
+                    "OWNER": {
+                        "text": "Owner",
+                        "showInChat": true,
+                        "showInNotChat": false
+                    },
+                    "ADMINISTRATOR": {
+                        "text": "Admin",
+                        "showInChat": true,
+                        "showInNotChat": false
+                    },
+                    "MODERATOR_STAFF": {
+                        "text": "Staff",
+                        "showInChat": true,
+                        "showInNotChat": false
+                    },
+                    "MODERATOR": {
+                        "text": "Mod",
+                        "showInChat": true,
+                        "showInNotChat": false
+                    },
+                    "VOICE_MODERATOR": {
+                        "text": "VC Mod",
+                        "showInChat": false,
+                        "showInNotChat": false
+                    },
+                    "CHAT_MODERATOR": {
+                        "text": "Chat Mod",
+                        "showInChat": false,
+                        "showInNotChat": false
+                    }
+                },
+                "dontShowForBots": true
             },
             "Moyai": {
-                "enabled": false
+                "enabled": false,
+                "volume": 0.5,
+                "quality": "Normal",
+                "triggerWhenUnfocused": true,
+                "ignoreBots": true,
+                "ignoreBlocked": true
             },
             "MutualGroupDMs": {
                 "enabled": false
@@ -316,7 +362,7 @@
                 "ignoreBlockedMessages": true
             },
             "NoDevtoolsWarning": {
-                "enabled": false
+                "enabled": true
             },
             "NoF1": {
                 "enabled": false
@@ -337,7 +383,7 @@
                 "enabled": false
             },
             "NoScreensharePreview": {
-                "enabled": false
+                "enabled": true
             },
             "NoSystemBadge": {
                 "enabled": false
@@ -358,7 +404,10 @@
                 "enabled": true
             },
             "OnePingPerDM": {
-                "enabled": false
+                "enabled": true,
+                "channelToAffect": "both_dms",
+                "allowMentions": false,
+                "allowEveryone": false
             },
             "oneko": {
                 "enabled": false
@@ -366,7 +415,7 @@
             "OpenInApp": {
                 "enabled": false
             },
-            "Party mode ": {
+            "Party mode 🎉": {
                 "enabled": false
             },
             "PermissionFreeWill": {
@@ -407,7 +456,7 @@
             },
             "PronounDB": {
                 "enabled": true,
-                "pronounsFormat": "LOWERCASE",
+                "pronounsFormat": "CAPITALIZED",
                 "pronounSource": 0,
                 "showSelf": true,
                 "showInMessages": true,
@@ -426,7 +475,13 @@
                 "enabled": false
             },
             "RelationshipNotifier": {
-                "enabled": false
+                "enabled": true,
+                "notices": false,
+                "offlineRemovals": true,
+                "friends": true,
+                "friendRequestCancels": true,
+                "servers": true,
+                "groups": true
             },
             "ResurrectHome": {
                 "enabled": false
@@ -440,7 +495,7 @@
             "ReviewDB": {
                 "enabled": true,
                 "notifyReviews": true,
-                "showWarning": true,
+                "showWarning": false,
                 "hideTimestamps": false,
                 "hideBlockedUsers": true,
                 "reviewsDropdownState": true
@@ -460,11 +515,12 @@
             "ServerListIndicators": {
                 "enabled": false
             },
-            "ServerProfile": {
-                "enabled": false
-            },
             "ShikiCodeblocks": {
-                "enabled": false
+                "enabled": false,
+                "theme": "https://raw.githubusercontent.com/shikijs/shiki/0b28ad8ccfbf2615f2d9d38ea8255416b8ac3043/packages/shiki/themes/dark-plus.json",
+                "tryHljs": "SECONDARY",
+                "useDevIcon": "GREYSCALE",
+                "bgOpacity": 100
             },
             "ShowAllMessageButtons": {
                 "enabled": false
@@ -490,13 +546,14 @@
             "SilentTyping": {
                 "enabled": true,
                 "showIcon": false,
-                "isEnabled": true
+                "isEnabled": true,
+                "contextMenu": true
             },
             "SortFriendRequests": {
                 "enabled": false
             },
             "SpotifyControls": {
-                "enabled": true,
+                "enabled": false,
                 "hoverControls": false
             },
             "SpotifyCrack": {
@@ -505,13 +562,16 @@
                 "keepSpotifyActivityOnIdle": true
             },
             "SpotifyShareCommands": {
-                "enabled": false
+                "enabled": true
             },
             "StartupTimings": {
                 "enabled": false
             },
             "SuperReactionTweaks": {
-                "enabled": false
+                "enabled": false,
+                "superReactByDefault": true,
+                "unlimitedSuperReactionPlaying": false,
+                "superReactionPlayingLimit": 20
             },
             "TextReplace": {
                 "enabled": false
@@ -529,7 +589,8 @@
                 "enabled": false,
                 "includeCurrentChannel": true,
                 "includeMutedChannels": false,
-                "includeBlockedUsers": false
+                "includeBlockedUsers": false,
+                "indicatorMode": 3
             },
             "TypingTweaks": {
                 "enabled": false,
@@ -555,7 +616,7 @@
                 "voiceBackground": true
             },
             "ValidUser": {
-                "enabled": false
+                "enabled": true
             },
             "VoiceChatDoubleClick": {
                 "enabled": true
@@ -572,7 +633,8 @@
                 "imgSize": "2048"
             },
             "ViewRaw": {
-                "enabled": false
+                "enabled": true,
+                "clickMethod": "Left"
             },
             "VoiceMessages": {
                 "enabled": true,
@@ -599,19 +661,29 @@
                 "eagerLoad": true
             },
             "OverrideForumDefaults": {
-                "enabled": false
+                "enabled": false,
+                "defaultLayout": 1,
+                "defaultSortOrder": 0
             },
             "UnlockedAvatarZoom": {
                 "enabled": false
             },
             "BetterSessions": {
-                "enabled": false
+                "enabled": false,
+                "backgroundCheck": false,
+                "checkInterval": 20
             },
             "ImplicitRelationships": {
-                "enabled": false
+                "enabled": false,
+                "sortByAffinity": true
             },
             "ShowHiddenThings": {
-                "enabled": false
+                "enabled": false,
+                "showTimeouts": true,
+                "showInvitesPaused": true,
+                "showModView": true,
+                "disableDiscoveryFilters": true,
+                "disableDisallowedDiscoveryFilters": true
             },
             "StreamerModeOnStream": {
                 "enabled": false
@@ -625,6 +697,88 @@
             },
             "WebRichPresence (arRPC)": {
                 "enabled": false
+            },
+            "AutomodContext": {
+                "enabled": false
+            },
+            "CtrlEnterSend": {
+                "enabled": false
+            },
+            "CustomIdle": {
+                "enabled": true,
+                "idleTimeout": 0,
+                "remainInIdle": false
+            },
+            "ImageLink": {
+                "enabled": false
+            },
+            "MessageLatency": {
+                "enabled": false,
+                "latency": 2,
+                "detectDiscordKotlin": true,
+                "showMillis": false
+            },
+            "NoDefaultHangStatus": {
+                "enabled": false
+            },
+            "NoServerEmojis": {
+                "enabled": false
+            },
+            "PartyMode": {
+                "enabled": false
+            },
+            "PauseInvitesForever": {
+                "enabled": false
+            },
+            "ReplaceGoogleSearch": {
+                "enabled": true,
+                "customEngineName": "SearXNG",
+                "customEngineURL": "https://searx.be/search?q="
+            },
+            "ReplyTimestamp": {
+                "enabled": false
+            },
+            "ShowTimeoutDuration": {
+                "enabled": false
+            },
+            "ValidReply": {
+                "enabled": true
+            },
+            "VoiceDownload": {
+                "enabled": false
+            },
+            "WebScreenShareFixes": {
+                "enabled": true
+            },
+            "MessageUpdaterAPI": {
+                "enabled": true
+            },
+            "DontRoundMyTimestamps": {
+                "enabled": false
+            },
+            "MaskedLinkPaste": {
+                "enabled": false
+            },
+            "Summaries": {
+                "enabled": false
+            },
+            "WatchTogetherAdblock": {
+                "enabled": false
+            },
+            "ServerInfo": {
+                "enabled": false
+            },
+            "UserSettingsAPI": {
+                "enabled": true
+            },
+            "AppleMusicRichPresence": {
+                "enabled": false
+            },
+            "CopyEmojiMarkdown": {
+                "enabled": false
+            },
+            "NoOnboardingDelay": {
+                "enabled": false
             }
         },
         "notifications": {
@@ -637,9 +791,9 @@
             "authenticated": false,
             "url": "https://api.vencord.dev/",
             "settingsSync": false,
-            "settingsSyncVersion": 1714093800697
+            "settingsSyncVersion": 1719285326166
         },
         "notifyAboutUpdates": true
     },
-    "quickCss": "/**\n * @name Translucence\n * @version 1.0.6.3\n * @description A translucent/frosted glass Discord theme\n * @author CapnKitten\n *\n * @website http://github.com/CapnKitten\n * @source https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Translucence/css/source.css\n * @donate https://paypal.me/capnkitten\n * @invite jzJkA6Z\n */\n\n@import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);\n\n:root {\n\t--app-bg: url(https://i.imgur.com/bgmVeyt.jpg);\n\t--app-blur: 6px;\n\t--app-margin: 24px;\n\t--app-radius: 8px; /*\t-\t*/\n\t\n\t--accent-hue: 156;\n\t--accent-saturation: 77.5%;\n\t--accent-lightness: 47.1%;\n\t--accent-opacity: 1;\n\t--accent-text-color: #000; /*\t-\t*/\n\n\t--sidebar-color: rgba(0,0,0,0.4);\n\t--main-content-color: rgba(0,0,0,0.2); /*\t-\t*/\n\n\t--message-color: rgba(0,0,0,0.4);\n\t--message-radius: 8px;\n\t--message-padding-top: 8px;\n\t--message-padding-side: 8px; /*\t-\t*/\n\t\n\t--reply-hue: 226;\n\t--reply-saturation: 77.4%;\n\t--reply-lightness: 61.8%;\n\t--reply-opacity: 1; /*\t-\t*/\n\n\t--textarea-color: 255,255,255;\n\t--textarea-alpha: 0.1;\n\t--textarea-alpha-focus: 0.15;\n\t--textarea-text-color: #fff;\n\t--textarea-radius: 22px;  /*\t-\t*/\n\n\t--card-color: rgba(0,0,0,0.4);\n\t--card-color-hover: rgba(0,0,0,0.5);\n\t--card-color-select: rgba(0,0,0,0.7); /*\t-\t*/\n\t\n\t--button-height: 32px;\n\t--button-padding: 0 16px;\n\t--button-action-color: #1E1E1E;\n\t--button-radius: 16px; /*\t-\t*/\n\n\t--interactive-normal: #aaa;\n\t--interactive-hover: #ddd;\n\t--interactive-active: #fff;\n\t--interactive-muted: #777; /*\t-\t*/\n\n\t--background-modifier-hover: rgba(255,255,255,0.075);\n\t--background-modifier-selected: rgba(255,255,255,0.125);\n\n    /*--home-icon: url('https://i.imgur.com/AzUcTqS.png');*/\n}"
+    "quickCss": "/**\n * @name DancingZeroTwo\n * @author [LVPD] Vladimir_Vasilevich[1]#3899 | Bada774\n * @version 2.0.0\n * @description Тема танцующей ZeroTwo из клипа 2 Phut Hon (KAIZ Remix)\n * @source https://github.com/DiscordStyles/FrostedGlass\n * @authorLink https://discordhub.com/profile/360111380059389964\n * @authorId 360111380059389964\n*/\n@import url(\"https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css\");\n@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');\n@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');\n\n:root {\n  /*FrostedGlass*/\n  --background-image: url('https://raw.githubusercontent.com/Fhraze/wallpapers/master/Astolfo-aesthetic.jpg');\n  --background-image-blur: 0px;\n  --background-image-size: cover;\n  --background-image-position: center;\n  --small-user-popout-background-image: url('https://i.imgur.com/Jvf5abf.gif');\n  --small-user-popout-background-transparency: #00000099;\n  --small-user-popout-background-image-position: top;\n  --home-button-image: url('https://99px.ru/sstorage/86/2018/09/image_861609180322028143900.gif');\n  --home-icon-image: url('https://99px.ru/sstorage/86/2018/09/image_861609180322028143900.gif');\n  --home-icon-image-position: center center;\n  --home-icon-image-zoom: 100%;\n  --home-button-size: cover;\n  --home-button-position: center;\n  --serverlist-brightness: 0;\n  --left-brightness: 0.1;\n  --middle-brightness: 0.35;\n  --right-brightness: 0;\n  --popout-modal-brightness: 0.52;\n  --gradient-primary: 151,25,123;\n  --gradient-secondary: 179,0,107;\n  --link-colour: #ff0055;\n  --scrollbar-colour: #ec105ab4;\n  --gradient-direction: 299deg;\n  --tint-colour: 160,41,136;\n  --tint-brightness: 0.3;\n  --font: 'Noto Serif','serif';\n  --window-padding: 0px;\n  --window-roundness: 14px;\n  --show-gift-gif-buttons: none;\n  --update-notice-1: none;\n  --rs-small-spacing: 0px;\n  --rs-medium-spacing: 0px;\n  --rs-large-spacing: 0px;\n  --rs-small-width: 2.5px;\n  --rs-medium-width: 2.5px;\n  --rs-large-width: 2.5px;\n  --rs-avatar-shape: 50%;\n  --rs-online-color: #00ffaa;\n  --rs-idle-color: #faa61a;\n  --rs-dnd-color: #ff008c;\n  --rs-offline-color: #411b63;\n  --rs-streaming-color: #c72cee;\n  --main-theme-color: #ec105ab4;\n  /*NotAnotherAnime*/\n--server-listing-width: 72px;\n--font-size: 100%;\n--category-hover-color: EC105AFF;\n--unread-server-animation: rainbow;\n--video-screen-button-background-color: #8B163FB4;\n--video-screen-button-foreground-color: #ffffffff;\n--video-screen-button-background-hovor-color: #8B163FB4;\n--video-screen-button-foreground-hovor-color: #ffffffff;\n--member-listing-role-color: #ec1059;\n--code-markup-background-color:  #ec1059a2;\n--code-markup-border: 1px solid transparent;\n--message-box-transparency: #00000099;\n--embed-background-transparency: #00000099;\n--message-hover-buttons-background: #c8c8c81a;\n--context-menu-transparency: #0f0f0fcc;\n--add-discover-icon-transparency: #c8c8c826;\n--add-discover-icon-color: #ec105ab4;\n--channel-limit-count-color: #ffffffff;\n--channel-limit-background-left: #c8c8c81a;\n--channel-limit-background-right: #c8c8c833;\n--unread-message-divider-color: #f04747;\n--unread-message-divider-font-color: #ffffff;\n--new-messages-bar-background-color: #9a72da;\n--new-messages-bar-font-color: #ffffff;\n--emoji-menu-sider-background-color: #8B163FFF;\n--emoji-menu-server-header-background-color: #8B163FFF;\n--emoji-menu-bottom-bar-background-color: #8B163FFF;\n--emoji-menu-search-bar-background-color: #8B163FFF;\n--message-search-menu-background-color: #8B163FB4;\n--message-search-container-background-color: #8B163FB4;\n--message-search-result-background-color: #8B163FB4;\n--message-search-result-background-color: #c8c8c80d;\n--text-voice-channel-color:  #FFFFFFFF;\n--text-voice-channel-hover-color:  #FFFFFFFF;\n--text-voice-channel-selected-text-color:  #FFFFFFFF;\n--unread-text-channel-color: #ffffff;\n--unread-text-channel-bubble-color: #ffffff;\n--folder-background-color: #8B163FFF;\n--expanded-folder-background-color: #8B163FB4;\n--reaction-emoji-background-color: #8B163FB4;\n--reaction-emoji-border-color: 1px solid #8B163FB4;\n--reaction-emoji-hover-background-color: ##8B163FB4;\n--reaction-emoji-hover-border-color: #8B163FB4;\n}\n\n.root-3JVdIJ {\n  background-color: rgba(151,11,59,0.7);\n}\n\n.scroller-3gAZLs list-6NCENv .thin-1ybCId .scrollerBase-289Jih {\n  background-color: #ec1059;\n}\n\n.header-8ilj5e{\n  background-color: #8B163FFF;\n}\n\n.contentWrapper-SvZHNd{\n  background-color: #ec1059;\n}\n\n.accountProfileCard-1XCH88 {\n  background-color: rgba(0,0,0, 0.3);\n}\n\n.emptyState-1C8By3 {\n  background-color: rgb(0, 0, 0, 0.3);\n}\n\n.contentRegionscroller-26nc1e {\n  background-color: rgb(0, 0, 0, 0.3);\n}\n\n.sidebarRegion-VFTUkN {\n  background-color: rgba(0,0,0, 0.3);\n}"
 }
