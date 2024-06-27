@@ -4,8 +4,7 @@
 ![image](https://github.com/Fhraze/dotfiles-cachyos/assets/76172824/f6ac49bb-c01c-45ee-8f31-259c3a9c27cd)
 
 ### Themes
-- **Home (1)**: default theme
-- **Home2**: my theme
+I deleted the original theme option (the one you see on the screenshots) because whatever man noone's gonna use this but me.
 
 ### Additions:
 - a really cool CachyOS wallpaper :O
